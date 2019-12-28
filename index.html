@@ -1,353 +1,427 @@
-
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
-    <title>Ramdani</title>
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DevCard Bootstrap 4 Template">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="images/favicon.ico"> 
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    
-    <!-- FontAwesome JS -->
-    <script defer src="https://themes.3rdwavemedia.com/devcard/bs4/assets/fontawesome/js/all.js"></script>
-    
-    <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="https://themes.3rdwavemedia.com/devcard/bs4/assets/plugins/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://themes.3rdwavemedia.com/devcard/bs4/assets/plugins/owlcarousel/assets/owl.theme.default.min.css">
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="https://themes.3rdwavemedia.com/devcard/bs4/assets/css/theme-1.css">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24707561-56"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-24707561-56');
-    </script>
-    
-    <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1506230579705064');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1506230579705064&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code -->
 
-</head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<body>
-    
-    <header class="header text-center">     
-        <div class="force-overflow">
-            <!-- <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Ramdani</a></h1> -->
-            
-            <nav class="navbar navbar-expand-lg navbar-dark" >
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div id="navigation" class="collapse navbar-collapse flex-column" >
-                    <div class="profile-section pt-3 pt-lg-0">
-                        <img class="profile-image mx-auto" src="images/Ramdani.jpg" alt="image" >        
-                        
-                        <div class="bio mb-3" style="color: black;">
-                            <p>Name : Ramdani</p>
-                            <p>Birthday : 2 December 1996</p>
-                            <p>Email : ramdaninformatika@gmail.com</p>
-                            <p>Phone : +6281997816528</p>
-                        </div><!--//bio-->
-                        <ul class="social-list list-inline py-2 mx-auto">
-                            <li class="list-inline-item"><a href="https://twitter.com/ramdaniB15"><i class="fab fa-twitter fa-fw"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.facebook.com/ramdaniB15"><i class="fab fa-facebook fa-fw"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.instagram.com/ramdanib15/"><i class="fab fa-instagram fa-fw"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/ramdani-ramdani-4380ba180/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-                        </ul><!--//social-list-->
-                        <hr> 
-                    </div><!--//profile-section-->
-                    
-                    <ul class="navbar-nav flex-column text-left">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#about_me"><i class="fas fa-user fa-fw mr-2"></i>About Me<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio"><i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact"><i class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a>
-                        </li>
-                    </ul>
-                    
-                </div>
-            </nav>
-        </div><!--//force-overflow-->
-    </header>
-    
-    <div class="main-wrapper">
-        
-        <section class="about-me-section p-3 p-lg-5 theme-bg-light">
-            <div class="container">
-                <div class="profile-teaser media flex-column flex-lg-row">
-                    
-                    <div class="media-body" id="about_me">
-                        <h2 class="section-title font-weight-bold mb-3">About Me</h2>
-                        <div class="font-weight-bold tagline mb-3">Software Engineer</div>
-                        <div class="bio mb-4">Recent graduate seeking opportunity in web development. Highly poised and dedicated with strong education and training in programming languages principles. Familiar with working alongside web development. Well-versed in using backend programming language such as PHP Laravel and Python Django, also Frontend development using VueJS.
-                        </div><!--//bio-->
-                        <div class="mb-4">
-                            <a class="btn btn-primary mr-2 mb-3" href="#portfolio"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a>
-                            <a class="btn btn-secondary mb-3" href="Ramdani_Resume.pdf"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline">Download</span> Resume</a>
-                        </div>
-                    </div><!--//media-body-->
-                </div>
+  <title>Ramdani</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top">
+    <div class="container">
+      <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a> -->
+      <a class="navbar-brand js-scroll-trigger"></a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <!-- <header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+      <img class="masthead-avatar" src="img/avatars.svg" alt="">
+      <h1 class="masthead-heading text-uppercase mb-0">Ramdani</h1>
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <p class="masthead-subheading font-weight-light mb-0">Software Engineer</p>
+    </div>
+  </header> -->
+
+  <!-- About Section -->
+  <section class="page-section mb-0" id="about">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase">Summary</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8" style="text-align: justify;">
+          <p class="lead">Recent graduate seeking opportunity in web development. Highly poised and dedicated with strong education and training in programming languages principles. Familiar with working alongside web development. Well-versed in using backend programming language such as PHP Laravel and Python Django, also Frontend development using VueJS.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+
+      <!-- About Section Button -->
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-dark" href="Ramdani_Resume.pdf">
+          <i class="fas fa-download mr-2"></i>
+          Download Resume
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="page-section" id="resume">
+    <div class="container">
+
+      <!-- Resume Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase">Resume</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Resume Section Content -->
+      <div class="row lead">
+        <div class="working-history col-md-6 padding_15 padbot_30">
+            <ul class="timeline col-md-12 top_30">
+                <li><h4 class="timeline-title"><span class="fa fa-suitcase"></span> Working History</h4></li>
+                <li><h6 class="line-title">PUSTIK Universitas Mataram - <i>Full Stack Developer</i></h6>
+                    <p class="little-text">Working as Full Stack Developer using Laravel and VueJS.</p>
+                </li>
+                <li><h6 class="line-title">ITEC Mataram - <i>Backend Developer</i></h6>
+                    <p class="little-text">Working as Backend Developer using Django Rest Framework, Docker, Redis, Celery and FCM (Firebase Cloud Messaging).</p>
+                </li>
+                <li><h6 class="line-title">Universitas Mataram - <i>Software Engineer</i></h6>
+                    <p class="little-text">Working as software engineer in applied research on the informatics engineering department. Develop bot application using python.</p>
+                </li>
+                <li><h6 class="line-title">Dinas Perumahan dan Permukiman Kab. Lombok Barat - <i>Software Engineer</i></h6>
+                    <p class="little-text">Freelance as software engineer using Java.</p>
+                </li>
+                <li><h6 class="line-title">Universitas Mataram - <i>Assistant Lecturer</i></h6>
+                    <p class="little-text">Assistant of Programming Fundamentals using C++ Programming Language to support the development and production of learning and teaching materials and deliver them across a range of modules.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="working-history col-md-6 padding_15 padbot_30">
+            <ul class="timeline col-md-12 top_30">
+                <li><h4 class="timeline-title"><span class="fa fa-graduation-cap"></span> Education History</h4></li>
+                <li><h6 class="line-title">Universitas Mataram</h6>
+                    <span>Bachelor's of Computer Science (<i>2015 - 2019</i>)</span>
+                </li>
+                <li><h6 class="line-title">SMKN 1 Selong</h6>
+                    <span>Network and System Administration (<i>2012 - 2015</i>)</span>
+                </li>
+            </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="page-section portfolio" id="portfolio">
+    <div class="container">
+
+      <!-- Portfolio Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Portfolio Grid Items -->
+      <div class="row">
+
+        <!-- Smart Meter -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#smartMeterModal">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
             </div>
-        </section><!--//about-me-section-->
-        
-        <section class="overview-section p-3 p-lg-5" id="resume">
-            <div class="container">
-                <h2 class="section-title font-weight-bold mb-3">Resume</h2>
-                <div class="row">
-                    <div class="working-history col-md-6 padding_15 padbot_30">
-                        <ul class="timeline col-md-12 top_30">
-                            <li><span class="fa fa-suitcase"></span><h5 class="timeline-title">Working History</h5></li>
-                            <li><h6 class="line-title">PUSTIK Universitas Mataram</h6>
-                                <span><i>Full Stack Developer</i></span>
-                                <p class="little-text">Works as a Full Stack Developer posisition. Develop web applications using PHP Laravel and VueJS.</p>
-                            </li>
-                            <li><h6 class="line-title">ITEC Mataram</h6>
-                                <span><i>Backend Developer</i></span>
-                                <p class="little-text">Works as a Backend Developer position. Develop web applications using Python Django.</p>
-                            </li>
-                            <li><h6 class="line-title">Universitas Mataram</h6>
-                                <span><i>Assistant Lecturer</i></span>
-                                <p class="little-text">Assistant of Object Oriented Programming using Java Programming Language to support the development and production of learning and teaching materials and deliver them across a range of modules.</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="working-history col-md-6 padding_15 padbot_30">
-                        <ul class="timeline col-md-12 top_30">
-                            <li><span class="fa fa-graduation-cap"></span><h5 class="timeline-title">Education History</h5></li>
-                            <li><h6 class="line-title">Universitas Mataram</h6>
-                                <span>Bachelor's of Computer Science (<i>2015 - 2019</i>)</span>
-                            </li>
-                            <li><h6 class="line-title">SMKN 1 Selong</h6>
-                                <span>Network and System Administration (<i>2012 - 2015</i>)</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>                
-            </div><!--//container-->
-        </section>
-        
-        <div class="container"><hr></div>
-        
-        <section class="featured-section p-3 p-lg-5" id="portfolio">
-            <div class="container">
-                <h2 class="section-title font-weight-bold mb-5">Portfolio</h2>
-                <div class="row">
-                    <div class="col-md-6 mb-5">
-                        <div class="card project-card">
-                            <div class="row no-gutters">
-                                <div class="col-lg-12 card-img-holder">
-                                    <img src="images/ta_web.png" class="card-img" alt="image">
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a href="#" class="theme-link">Smart Meter System</a></h5>
-                                        <p class="card-text">Thesis project based on Internet Of Things at Informatics Engineering Department at the University of Mataram</p>
-                                        <p class="card-text"><small class="text-muted">Using: Python Django, C++, MQTT, MongoDB</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--//card-->
-                    </div><!--//col-->
-                    <div class="col-md-6 mb-5"> 
-                        <div class="card project-card">
-                            <div class="row no-gutters">
-                                <div class="col-lg-12 card-img-holder">
-                                    <img src="images/lpkn.png" class="card-img" alt="image">
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a href="http://online.lpkntrainingcenter.sch.id/" class="theme-link">LPKN Academic Information</a></h5>
-                                        <p class="card-text">Academic Information System with Financial Statements for private campus. Work as a Backend Developer.</p>
-                                        <p class="card-text"><small class="text-muted">Using: Django Rest Framework, Redis, Celery, FCM, Docker</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="link-mask">
-                                <a class="link-mask-link" href="http://online.lpkntrainingcenter.sch.id/"></a>
-                                <div class="link-mask-text">
-                                    <a class="btn btn-secondary" href="http://online.lpkntrainingcenter.sch.id/" target="_blank">
-                                        <i class="fas fa-eye mr-2"></i>View Website
-                                    </a>
-                                </div>
-                            </div><!--//link-mask-->
-                        </div><!--//card-->
-                    </div><!--//col-->
-                    <div class="col-md-6 mb-5"> 
-                        <div class="card project-card">
-                            <div class="row no-gutters">
-                                <div class="col-lg-12 card-img-holder">
-                                    <img src="images/itec.png" class="card-img" alt="image">
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a href="http://online.itec.sch.id/" class="theme-link">ITEC Academic Information</a></h5>
-                                        <p class="card-text">Academic Information System with Financial Statements for ITEC Mataram. Work as a Backend Developer.</p>
-                                        <p class="card-text"><small class="text-muted">Using: Django Rest Framework, Redis, Celery, FCM, Docker</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="link-mask">
-                                <a class="link-mask-link" href="http://online.itec.sch.id/"></a>
-                                <div class="link-mask-text">
-                                    <a class="btn btn-secondary" href="http://online.itec.sch.id/" target="_blank">
-                                        <i class="fas fa-eye mr-2"></i>View Website
-                                    </a>
-                                </div>
-                            </div><!--//link-mask-->
-                        </div><!--//card-->
-                    </div><!--//col-->
-                    <div class="col-md-6 mb-5"> 
-                        <div class="card project-card">
-                            <div class="row no-gutters">
-                                <div class="col-lg-12 card-img-holder">
-                                    <img src="images/eskst.png" class="card-img" alt="image">
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a href="http://eskst.unram.ac.id/" class="theme-link">SKST - UNRAM</a></h5>
-                                        <p class="card-text">Data collection for staff from each assignment letter. Work as a Full Stack Developer.</p>
-                                        <p class="card-text"><small class="text-muted">Using: Laravel and VueJS</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="link-mask">
-                                <a class="link-mask-link" href="http://eskst.unram.ac.id/"></a>
-                                <div class="link-mask-text">
-                                    <a class="btn btn-secondary" href="http://eskst.unram.ac.id/" target="_blank">
-                                        <i class="fas fa-eye mr-2"></i>View Website
-                                    </a>
-                                </div>
-                            </div><!--//link-mask-->
-                        </div><!--//card-->
-                    </div><!--//col-->
-                    <div class="col-md-6 mb-5"> 
-                        <div class="card project-card">
-                            <div class="row no-gutters">
-                                <div class="col-lg-12 card-img-holder">
-                                    <img src="images/tasiaun.png" class="card-img" alt="image">
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a href="http://ta.sia.unram.ac.id/" class="theme-link">TA - UNRAM</a></h5>
-                                        <p class="card-text">Thesis title registration, scheduling, and final exams. Work as a Full Stack Developer</p>
-                                        <p class="card-text"><small class="text-muted">Using: Laravel</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="link-mask">
-                                <a class="link-mask-link" href="http://ta.sia.unram.ac.id/"></a>
-                                <div class="link-mask-text">
-                                    <a class="btn btn-secondary" href="http://ta.sia.unram.ac.id/" target="_blank">
-                                        <i class="fas fa-eye mr-2"></i>View Website
-                                    </a>
-                                </div>
-                            </div><!--//link-mask-->
-                        </div><!--//card-->
-                    </div><!--//col-->
-                    <div class="col-md-6 mb-5"> 
-                        <div class="card project-card">
-                            <div class="row no-gutters">
-                                <div class="col-lg-12 card-img-holder">
-                                    <img src="images/skpi.png" class="card-img" alt="image">
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a href="http://skpi.unram.ac.id/" class="theme-link">SKPI - UNRAM</a></h5>
-                                        <p class="card-text">Data collection on the achievements of fresh graduates. Work as a Full Stack Developer</p>
-                                        <p class="card-text"><small class="text-muted">Using: Laravel</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="link-mask">
-                                <a class="link-mask-link" href="http://ta.sia.unram.ac.id/"></a>
-                                <div class="link-mask-text">
-                                    <a class="btn btn-secondary" href="http://ta.sia.unram.ac.id/" target="_blank">
-                                        <i class="fas fa-eye mr-2"></i>View Website
-                                    </a>
-                                </div>
-                            </div><!--//link-mask-->
-                        </div><!--//card-->
-                    </div><!--//col-->
-                </div><!--//row-->
-                <!-- <div class="text-center py-3"><a href="portfolio.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a></div> -->
-                
-            </div><!--//container-->
-        </section><!--//featured-section-->
-        
-        <div class="container"><hr></div>
-        
-        <section class="latest-blog-section p-3 p-lg-5" id="contact">
-            <div class="container">
-                <h2 class="section-title font-weight-bold mb-5">Contact Informations</h2>
-                <div class="row">
-                    <section class="contact-info col-md-12 padding_30 padbot_45">
-                        <ul>
-                            <li><b>Address:</b> Jl. A.R.Hackim, Gang Jl.Oncer No. 3 Karang Bedil - Mataram Timur Kabupaten Lombok Barat</li><br>
-                            <li><b>Phone:</b> +6281997816528</li><br>
-                            <li><b>E-mail:</b> ramdaninformatika@gmail.com</li><br>
-                        </ul>
-                    </section>
-                </div><!--//row-->
-            </div><!--//container-->
-            
-        </section><!--//latest-blog-section-->
+            <img class="img-fluid" src="img/ta_web.png" alt="">
+          </div>
+          <p>Thesis project based on Internet of Things. Develop using Django, C++, MongoDB, MQTT.</p>
+        </div>
 
-        <footer class="footer text-center py-4">
-            <small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
-        </footer>
-        
-    </div><!--//main-wrapper-->
+        <!-- LPKN -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto">
+            <a href="http://online.lpkntrainingcenter.sch.id/">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                    <p>View Website</p>
+                </div>
+              </div>
+            </a>
+            <img class="img-fluid" src="img/lpkn.png" alt="">
+          </div>
+          <p>Academic Information System with Financial Reports. Develop using Django, Django Rest Framework, Docker, Redis, Celery, FCM (Firebase Cloud Messaging).</p>
+        </div>
 
-    <!-- Javascript -->          
-    <script src="https://themes.3rdwavemedia.com/devcard/bs4/assets/plugins/jquery-3.4.1.min.js"></script>
-    <script src="https://themes.3rdwavemedia.com/devcard/bs4/assets/plugins/popper.min.js"></script> 
-    <script src="https://themes.3rdwavemedia.com/devcard/bs4/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://themes.3rdwavemedia.com/devcard/bs4/assets/plugins/owlcarousel/owl.carousel.min.js"></script>
-    <script src="https://themes.3rdwavemedia.com/devcard/bs4/assets/js/testimonials.js"></script>
+        <!-- ITEC -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#itecModal">
+            <a href="http://online.itec.sch.id/">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                    <p>View Website</p>
+                </div>
+              </div>
+            </a>
+            <img class="img-fluid" src="img/itec.png" alt="">
+          </div>
+          <p>Academic Information System with Financial Reports. Develop using Django, Django Rest Framework, Docker, Redis, Celery, FCM (Firebase Cloud Messaging).</p>
+        </div>
 
-    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-    <script src="https://themes.3rdwavemedia.com/devcard/bs4/assets/js/demo/style-switcher.js"></script>  
-    
-    <!-- Dark Mode -->
-    <script src="https://themes.3rdwavemedia.com/devcard/bs4/assets/plugins/js-cookie.min.js"></script>
-    <script src="https://themes.3rdwavemedia.com/devcard/bs4/assets/js/dark-mode.js"></script>   
-    
+        <!-- ESKST -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#eskstModal">
+            <a href="http://eskst.unram.ac.id/">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                    <p>View Website</p>
+                </div>
+              </div>
+            </a>
+            <img class="img-fluid" src="img/eskst.png" alt="">
+          </div>
+          <p>Data collection for staff from assignment letter. Develop using Laravel and VueJS.</p>
+        </div>
+
+        <!-- TA -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#taModal">
+            <a href="https://ta.sia.unram.ac.id/">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                    <p>View Website</p>
+                </div>
+              </div>
+            </a>
+            <img class="img-fluid" src="img/tasiaun.png" alt="">
+          </div>
+          <p>Thesis title registration, scheduling, and final exams. Develop using Laravel.</p>
+        </div>
+
+        <!-- SKPI -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#skpiModal">
+            <a href="https://skpi.unram.ac.id/">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                    <p>View Website</p>
+                </div>
+              </div>
+            </a>
+            <img class="img-fluid" src="img/skpi.png" alt="">
+          </div>
+          <p>Data collection on the achievements of fresh graduates. Develop using Laravel.</p>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+
+      <!-- Contact Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-dark mb-0">Contact</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Contact Section Form -->
+      <div class="row lead">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 mx-auto mb-5">
+          <div class="text-center">
+            <a href="https://twitter.com/ramdaniB15"><i class="fab fa-twitter fa-fw"></i></a>
+            <a href="https://www.facebook.com/ramdaniB15"><i class="fab fa-facebook fa-fw"></i></a>
+            <a href="https://www.instagram.com/ramdanib15/"><i class="fab fa-instagram fa-fw"></i></a>
+            <a href="https://www.linkedin.com/in/ramdani-ramdani-4380ba180/"><i class="fab fa-linkedin-in fa-fw"></i></a>
+          </div>
+          <li><span>Address:</span> Jl.A.R.Hackim Gang Jl.Oncer No.3 Karang Bedil-Mataram Timur Kab. Lombok Barat</li>
+          <li><span>Phone:</span> +6281997816528</li>
+          <li><span>E-mail:</span> ramdaninformatika@gmail.com</li>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="text-center col-lg-12">
+          <section class="contact-map col-md-12 top_15 bottom_15">
+              <!-- <div class="section-title bottom_30"><span></span><h2>Contact Map.</h2></div>   -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d986.2671753083425!2d116.10748322919778!3d-8.58939347355101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf61734d8d9b%3A0x4fabf90836532465!2sJl.%20Oncer%20No.3%2C%20Mataram%20Tim.%2C%20Kec.%20Mataram%2C%20Kota%20Mataram%2C%20Nusa%20Tenggara%20Bar.%2083127!5e0!3m2!1sen!2sid!4v1577570574404!5m2!1sen!2sid" height="350" style="border:0" allowfullscreen></iframe>
+          </section>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+
+        <!-- Footer Location -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Location</h4>
+          <p class="lead mb-0">2215 John Daniel Drive
+            <br>Clark, MO 65243</p>
+        </div>
+
+        <!-- Footer Social Icons -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Around the Web</h4>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-linkedin-in"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-dribbble"></i>
+          </a>
+        </div>
+
+        <!-- Footer About Text -->
+        <div class="col-lg-4">
+          <h4 class="text-uppercase mb-4">About Freelancer</h4>
+          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
+            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; Your Website 2019</small>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Smart Meter -->
+  <div class="portfolio-modal modal fade" id="smartMeterModal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Smart Meter System</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/ta_web.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/ta1.jpg" alt="">
+                <img class="img-fluid rounded mb-5" src="img/ta2.jpg" alt="">
+                <img class="img-fluid rounded mb-5" src="img/ta3.jpg" alt="">
+                <!-- Portfolio Modal - Text -->
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
 </body>
-</html> 
 
+</html>
