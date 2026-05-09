@@ -303,6 +303,16 @@ a:hover {
   margin-bottom: 16px;
 }
 
+.project-image {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 8px;
+  float: left;
+  margin: 0 12px 8px 0;
+  border: 1px solid var(--border, #333);
+}
+
 .project-title {
   color: var(--text-bright);
   font-weight: 700;
