@@ -301,6 +301,7 @@ a:hover {
 /* === Projects Section === */
 .project-item {
   margin-bottom: 16px;
+  display: flow-root;
 }
 
 .project-image {
